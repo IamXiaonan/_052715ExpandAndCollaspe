@@ -152,7 +152,9 @@
         _quizView.alpha = 0.0;
         _lowerImageView.frame = lowerEndRect;
     } completion:^(BOOL finished) {
-        
+        [_quizView removeFromSuperview];
+        [self addQuizView];
+        [self animationOne:nil finished:nil context:nil];
     }];
     
 }
@@ -171,6 +173,47 @@
     [self quizEaseOut:nil finished:nil context:nil];
     
 }
+
+-(void)starTwoEvent:(UIButton *)sender{
+    [_starOne setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starTwo setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starThree setBackgroundImage:[UIImage imageNamed:@"1432680079_star.png"] forState:UIControlStateNormal];
+    [_starFour setBackgroundImage:[UIImage imageNamed:@"1432680079_star.png" ] forState:UIControlStateNormal];
+    [_starFive setBackgroundImage:[UIImage imageNamed:@"1432680079_star.png" ] forState:UIControlStateNormal];
+    
+    [self quizEaseOut:nil finished:nil context:nil];
+}
+
+-(void)starThreeEvent:(UIButton *)sender{
+    [_starOne setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starTwo setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starThree setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starFour setBackgroundImage:[UIImage imageNamed:@"1432680079_star.png" ] forState:UIControlStateNormal];
+    [_starFive setBackgroundImage:[UIImage imageNamed:@"1432680079_star.png" ] forState:UIControlStateNormal];
+    
+    [self quizEaseOut:nil finished:nil context:nil];
+}
+
+-(void)starFourEvent:(UIButton *)sender{
+    [_starOne setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starTwo setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starThree setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starFour setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png" ] forState:UIControlStateNormal];
+    [_starFive setBackgroundImage:[UIImage imageNamed:@"1432680079_star.png" ] forState:UIControlStateNormal];
+    
+    [self quizEaseOut:nil finished:nil context:nil];
+}
+
+-(void)starFiveEvent:(UIButton *)sender{
+    [_starOne setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starTwo setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starThree setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png"] forState:UIControlStateNormal];
+    [_starFour setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png" ] forState:UIControlStateNormal];
+    [_starFive setBackgroundImage:[UIImage imageNamed:@"1432680096_star.png" ] forState:UIControlStateNormal];
+    
+    [self quizEaseOut:nil finished:nil context:nil];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
