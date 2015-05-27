@@ -14,6 +14,8 @@
 		8BB7A1B81B15F54600EC201F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7A1B71B15F54600EC201F /* Images.xcassets */; };
 		8BB7A1BB1B15F54600EC201F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7A1B91B15F54600EC201F /* LaunchScreen.xib */; };
 		8BB7A1C71B15F54600EC201F /* _052715ExpandAndCollaspeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7A1C61B15F54600EC201F /* _052715ExpandAndCollaspeTests.m */; };
+		8BB7A1D11B16112600EC201F /* 1432680079_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7A1D01B16112600EC201F /* 1432680079_star.png */; };
+		8BB7A1D31B16113100EC201F /* 1432680096_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7A1D21B16113100EC201F /* 1432680096_star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		8BB7A1C01B15F54600EC201F /* _052715ExpandAndCollaspeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _052715ExpandAndCollaspeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7A1C51B15F54600EC201F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB7A1C61B15F54600EC201F /* _052715ExpandAndCollaspeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _052715ExpandAndCollaspeTests.m; sourceTree = "<group>"; };
+		8BB7A1D01B16112600EC201F /* 1432680079_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1432680079_star.png; sourceTree = "<group>"; };
+		8BB7A1D21B16113100EC201F /* 1432680096_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1432680096_star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				8BB7A1AF1B15F54600EC201F /* AppDelegate.m */,
 				8BB7A1B11B15F54600EC201F /* ViewController.h */,
 				8BB7A1B21B15F54600EC201F /* ViewController.m */,
+				8BB7A1D01B16112600EC201F /* 1432680079_star.png */,
+				8BB7A1D21B16113100EC201F /* 1432680096_star.png */,
 				8BB7A1B41B15F54600EC201F /* Main.storyboard */,
 				8BB7A1B71B15F54600EC201F /* Images.xcassets */,
 				8BB7A1B91B15F54600EC201F /* LaunchScreen.xib */,
@@ -200,8 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB7A1B61B15F54600EC201F /* Main.storyboard in Resources */,
+				8BB7A1D31B16113100EC201F /* 1432680096_star.png in Resources */,
 				8BB7A1BB1B15F54600EC201F /* LaunchScreen.xib in Resources */,
 				8BB7A1B81B15F54600EC201F /* Images.xcassets in Resources */,
+				8BB7A1D11B16112600EC201F /* 1432680079_star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
